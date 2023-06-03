@@ -1,13 +1,64 @@
 * {
+  margin: 0;
+  padding: 0;
   color: #FFFFFF;
+}
+
+header {
+  background-color: #000000;
+  color: #000;
+}
+
+main {
+  background: rgb(0,0,0);
+  background: linear-gradient(166deg, rgba(0,0,0,1) 37%, rgba(3,3,89,1) 100%);
 }
 
 svg {
   height: 7vh;
 }
 
+nav {
+  font-size: larger;
+}
+
+nav a:hover {
+  background-color: #242323;
+  border-radius: 6%;
+  transform: scale(1.1);
+  transition: transform .3s;
+  box-shadow: 10px 10px 65px 2px rgba(3,3,89,1);
+}
+
 #titulo-logo {
   padding: 0;
   font-size: medium;
   width: 50%;
+}
+
+.card {
+  margin-bottom: 30px;
+  background-color: #333;
+}
+
+.coracao {
+  font-size: xx-large;
+  text-align: end;
+  padding-right: 5%;
+}
+
+.ri-heart-fill {
+  color: rgb(198, 11, 11);
+}
+
+.ri-heart-fill:hover {
+  color: rgb(255, 0, 0);
+  box-shadow: 0px 0px 141px 10px rgba(255,13,13,1);
+}
+
+a.btn-primary:hover {
+  background-color: #1212f0;
+  transform: scale(1.1);
+  transition: transform .3s;
+  box-shadow: 10px 10px 65px 2px rgba(3,3,89,1);
 }

@@ -1,0 +1,13 @@
+* {
+  color: #FFFFFF;
+}
+
+svg {
+  height: 7vh;
+}
+
+#titulo-logo {
+  padding: 0;
+  font-size: medium;
+  width: 50%;
+}

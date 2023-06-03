@@ -18,7 +18,11 @@
       <ul>
         <li>
           <a href="./index.html">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 2V4H17V7C18.6569 7 20 8.34315 20 10V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V10C4 8.34315 5.34315 7 7 7V4H5V2H19ZM17 9H7C6.44772 9 6 9.44772 6 10V20H18V10C18 9.44772 17.5523 9 17 9ZM13 11V13H15V15H12.999L13 17H11L10.999 15H9V13H11V11H13ZM15 4H9V7H15V4Z" fill="rgba(255,255,255,1)"></path></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M19 2V4H17V7C18.6569 7 20 8.34315 20 10V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V10C4 8.34315 5.34315 7 7 7V4H5V2H19ZM17 9H7C6.44772 9 6 9.44772 6 10V20H18V10C18 9.44772 17.5523 9 17 9ZM13 11V13H15V15H12.999L13 17H11L10.999 15H9V13H11V11H13ZM15 4H9V7H15V4Z"
+                fill="rgba(255,255,255,1)"></path>
+            </svg>
             <div id="titulo-logo">Farmácia Milagrosa</div>
           </a>
         </li>
@@ -38,19 +42,19 @@
   <main class="container">
     <section>
       <h2>Formulário de Contato</h2>
-      
+
       <form action="" method="GET">
         <label for="nome">Nome</label>
-        <input type="text" name="nome" id="nome" placeholder="Informe seu nome" required>
+        <input type="text" name="nome" id="nome" placeholder="Informe seu nome" required class="formulario">
 
         <label for="telefone">Telefone para contato</label>
-        <input type="tel" name="telefone" id="telefone" placeholder="Informe seu telefone" required>
+        <input type="tel" name="telefone" id="telefone" placeholder="Informe seu telefone" required class="formulario">
 
         <label for="email">Email</label>
-        <input type="email" name="email" id="email" placeholder="Informe seu email">
+        <input type="email" name="email" id="email" placeholder="Informe seu email" class="formulario">
 
         <label for="assunto">Assunto</label>
-        <select name="assunto" id="assunto">
+        <select name="assunto" id="assunto" class="formulario">
           <option value="">Selecione</option>
           <option value="comercial">Comercial</option>
           <option value="duvidas">Dúvidas</option>
@@ -58,14 +62,15 @@
         </select>
 
         <label for="mensagem">Mensagem</label>
-        <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem..."></textarea>
+        <textarea name="mensagem" id="mensagem" placeholder="Digite sua mensagem..."></textarea>
 
         <div>
           <input type="checkbox" name="orcamento" id="orcamento">
           <span>Esta mensagem é sobre um orçamento</span>
         </div>
-
-        <input type="submit" value="Enviar">
+        <div id="botao-enviar">
+          <input type="submit" value="Enviar">
+        </div>
       </form>
     </section>
   </main>

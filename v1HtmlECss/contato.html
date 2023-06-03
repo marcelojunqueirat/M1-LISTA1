@@ -36,7 +36,38 @@
   </header>
 
   <main class="container">
+    <section>
+      <h2>Formulário de Contato</h2>
+      
+      <form action="" method="GET">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" placeholder="Informe seu nome" required>
 
+        <label for="telefone">Telefone para contato</label>
+        <input type="tel" name="telefone" id="telefone" placeholder="Informe seu telefone" required>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Informe seu email">
+
+        <label for="assunto">Assunto</label>
+        <select name="assunto" id="assunto">
+          <option value="">Selecione</option>
+          <option value="comercial">Comercial</option>
+          <option value="duvidas">Dúvidas</option>
+          <option value="revenda">Revenda</option>
+        </select>
+
+        <label for="mensagem">Mensagem</label>
+        <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem..."></textarea>
+
+        <div>
+          <input type="checkbox" name="orcamento" id="orcamento">
+          <span>Esta mensagem é sobre um orçamento</span>
+        </div>
+
+        <input type="submit" value="Enviar">
+      </form>
+    </section>
   </main>
 
   <footer>

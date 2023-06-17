@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
 
-*{
+* {
   font-family: 'Inter', sans-serif;
   margin: 0;
   padding: 0;
@@ -14,11 +14,11 @@ header {
 }
 
 .container {
-  background: rgb(0,0,0);
-  background: linear-gradient(166deg, rgba(0,0,0,1) 37%, rgba(3,3,89,1) 100%);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(166deg, rgba(0, 0, 0, 1) 37%, rgba(3, 3, 89, 1) 100%);
 }
 
-nav * {  
+nav * {
   font-weight: 500;
   font-size: large;
 
@@ -33,7 +33,7 @@ nav li a:hover {
   border-radius: 6%;
   transform: scale(1.1);
   transition: transform .3s;
-  box-shadow: 10px 10px 65px 2px rgba(3,3,89,1);
+  box-shadow: 10px 10px 65px 2px rgba(3, 3, 89, 1);
 }
 
 nav li a:active {
@@ -65,13 +65,14 @@ ul {
 
 h2 {
   text-align: center;
-  margin: 1.5rem;
+  padding: 1.5rem;
 }
 
-.container {
-  display: flex;    
+.fale-conosco {
+  display: flex;
   justify-content: center;
 }
+
 .container ul {
   display: flex;
   flex-wrap: wrap;
@@ -79,16 +80,20 @@ h2 {
 }
 
 .cartao {
-  background-color: #333;
-  text-align: center;
   width: 25vw;
-  margin: 10%;
-  padding-bottom: 10%;
-  border-radius: 4%;
+  height: 100%;
 }
 
 .cartao img {
   width: 40%;
+}
+
+.margem-cartao {
+  background-color: #333;
+  text-align: center;
+  padding-bottom: 10%;
+  border-radius: 4%;
+  margin: 15px;
 }
 
 .coracao {
@@ -104,12 +109,12 @@ h2 {
 
 .ri-heart-fill:hover {
   color: rgb(255, 0, 0);
-  box-shadow: 0px 0px 141px 20px rgba(255,13,13,1);
+  box-shadow: 0px 0px 141px 20px rgba(255, 13, 13, 1);
 }
 
-.produto{
+.produto {
   font-size: x-large;
-  margin: 25px;
+  padding: 25px;
 }
 
 .valor {
@@ -143,7 +148,7 @@ input[type="number"] {
   background-color: #1212f0;
   transform: scale(1.1);
   transition: transform .3s;
-  box-shadow: 10px 10px 65px 2px rgba(3,3,89,1);
+  box-shadow: 10px 10px 65px 2px rgba(3, 3, 89, 1);
 }
 
 label {
@@ -151,8 +156,8 @@ label {
 }
 
 footer {
-  background: rgb(0,0,0);
-  background: linear-gradient(166deg, rgba(0,0,0,1) 37%, rgba(3,3,89,1) 100%);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(166deg, rgba(0, 0, 0, 1) 37%, rgba(3, 3, 89, 1) 100%);
 }
 
 #rodape {
@@ -163,6 +168,7 @@ footer {
 footer p {
   padding: 10px;
 }
+
 #topo:hover {
   background-color: #1212f0;
 }
@@ -196,7 +202,7 @@ footer p {
   font-weight: 700;
 }
 
-#orcamento + span {
+#orcamento+span {
   font-weight: 700;
 }
 
@@ -205,7 +211,7 @@ footer p {
   margin-bottom: 12%;
 }
 
-input[type="submit"]{
+input[type="submit"] {
   margin-top: 15px;
   width: 68%;
   height: 50px;
@@ -219,6 +225,54 @@ input[type="submit"]:hover {
   background-color: #1212f0;
   transform: scale(1.1);
   transition: transform .3s;
-  box-shadow: 10px 10px 65px 2px rgba(3,3,89,1);
+  box-shadow: 10px 10px 65px 2px rgba(3, 3, 89, 1);
 }
 
+#localizacao {
+  padding-bottom: 5%;
+}
+
+.endereco {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#endereco-dados {
+  font-size: x-large;
+  margin-right: 3%;
+  font-weight: bolder;
+}
+
+#localizacao-mapa iframe {
+  border-radius: 4%;
+  width: 600px;
+  height: 300px
+}
+
+.historia {
+  padding: 10px 15%;
+  font-size: larger;
+  font-weight: 500;
+  text-align: justify;
+}
+
+.foto-empresa {
+  text-align: center;
+}
+
+.foto-empresa img {
+  border-radius: 4%;
+  margin: 4%;
+}
+
+.midias-sociais {
+  text-align: center;
+  font-size: xxx-large;
+  padding: 10px;
+}
+
+.midias-sociais i {
+  margin: 40px 50px;
+}

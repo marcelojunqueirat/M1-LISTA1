@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   color: #FFFFFF;
+  /* border: 1px solid red; */
 }
 
 header {
@@ -20,6 +21,8 @@ svg {
 
 nav {
   font-size: larger;
+  display: flex;
+  justify-content: center;
 }
 
 nav a:hover {
@@ -37,8 +40,9 @@ nav a:hover {
 }
 
 .card {
-  margin-bottom: 30px;
   background-color: #333;
+  text-align: center;
+  border-radius: 4%;
 }
 
 .coracao {
@@ -92,3 +96,35 @@ footer {
 footer p {
   padding: 10px;
 }
+
+#localizacao-mapa iframe {
+  border-radius: 4%;
+  width: 600px;
+  height: 300px
+}
+
+.historia {
+  font-size: larger;
+  font-weight: 500;
+}
+
+.foto-empresa img {
+  border-radius: 4%;
+  margin: 4%;
+}
+
+.foto-empresa img:hover {
+  transform: scale(1.1);
+  transition: transform .3s;
+}
+
+.midias-sociais {
+  text-align: center;
+  font-size: xxx-large;
+  padding: 10px;
+}
+
+.midias-sociais i {
+  margin: 40px 50px;
+}
+

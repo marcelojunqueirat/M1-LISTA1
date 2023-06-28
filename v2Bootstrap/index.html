@@ -17,121 +17,138 @@
 <body>
 
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark p-4">
-      <a class="navbar-brand" href="#">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-          <path
-            d="M19 2V4H17V7C18.6569 7 20 8.34315 20 10V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V10C4 8.34315 5.34315 7 7 7V4H5V2H19ZM17 9H7C6.44772 9 6 9.44772 6 10V20H18V10C18 9.44772 17.5523 9 17 9ZM13 11V13H15V15H12.999L13 17H11L10.999 15H9V13H11V11H13ZM15 4H9V7H15V4Z"
-            fill="rgba(255,255,255,1)"></path>
-        </svg>
-        <span id="titulo-logo">Farmácia Milagrosa</span>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link" href="#">Todos os remédios</a>
-          <a class="nav-link" href="#">Sobre nós</a>
-          <a class="nav-link" href="./contato.html">Fale conosco</a>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path
+              d="M19 2V4H17V7C18.6569 7 20 8.34315 20 10V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V10C4 8.34315 5.34315 7 7 7V4H5V2H19ZM17 9H7C6.44772 9 6 9.44772 6 10V20H18V10C18 9.44772 17.5523 9 17 9ZM13 11V13H15V15H12.999L13 17H11L10.999 15H9V13H11V11H13ZM15 4H9V7H15V4Z"
+              fill="rgba(255,255,255,1)"></path>
+          </svg>
+          <span id="titulo-logo">Farmácia Milagrosa</span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link m-5" href="#">Todos os remédios</a>
+            <a class="nav-link m-5" href="./sobrenos.html">Sobre nós</a>
+            <a class="nav-link m-5" href="./contato.html">Fale conosco</a>
+          </div>
+
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
   </header>
 
   <main>
-    <div class="p-4 d-flex justify-content-center">
-      <h2>Todos os remédios</h2>
-    </div>
-
-    <section id="todos-remedios">
-      <div class="d-flex align-items-stretch justify-content-around flex-wrap">
-        <div class="card" style="width: 18rem;">
-          <div class="coracao">
-            <i class="ri-heart-fill"></i>
-          </div>
-          <img src="./images/remedio.png" class="card-img-top" alt="Foto de remedio">
-          <div class="card-body">
-            <h5 class="card-title">SHAMPOO JOHNSONS BABY CABELOS CLAROS 400ML</h5>
-            <p class="card-text">R&#36 27,89</p>
-            <a href="#" class="btn btn-primary">Adicionar <i class="ri-add-circle-fill"></i></a>
-          </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-          <div class="coracao">
-            <i class="ri-heart-fill"></i>
-          </div>
-          <img src="./images/remedio.png" class="card-img-top" alt="Foto de remedio">
-          <div class="card-body">
-            <h5 class="card-title">AMOXICILINA TEUTO 500MG COM 21 COMPRIMIDOS</h5>
-            <p class="card-text">R&#36 87,78</p>
-            <a href="#" class="btn btn-primary">Adicionar <i class="ri-add-circle-fill"></i></a>
-          </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-          <div class="coracao">
-            <i class="ri-heart-fill"></i>
-          </div>
-          <img src="./images/remedio.png" class="card-img-top" alt="Foto de remedio">
-          <div class="card-body">
-            <h5 class="card-title">LORATADINA CIMED COM 12 COMPRIMIDOS 10MG GENERICO</h5>
-            <p class="card-text">R&#36 6,21</p>
-            <a href="#" class="btn btn-primary">Adicionar <i class="ri-add-circle-fill"></i></a>
-          </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-          <div class="coracao">
-            <i class="ri-heart-fill"></i>
-          </div>
-          <img src="./images/remedio.png" class="card-img-top" alt="Foto de remedio">
-          <div class="card-body">
-            <h5 class="card-title">SHAMPOO JOHNSONS BABY CABELOS CLAROS 500ML</h5>
-            <p class="card-text">R&#36 29,89</p>
-            <a href="#" class="btn btn-primary">Adicionar <i class="ri-add-circle-fill"></i></a>
-          </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-          <div class="coracao">
-            <i class="ri-heart-fill"></i>
-          </div>
-          <img src="./images/remedio.png" class="card-img-top" alt="Foto de remedio">
-          <div class="card-body">
-            <h5 class="card-title">SHAMPOO JOHNSONS BABY CABELOS CLAROS 600ML</h5>
-            <p class="card-text">R&#36 31,89</p>
-            <a href="#" class="btn btn-primary">Adicionar <i class="ri-add-circle-fill"></i></a>
-          </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-          <div class="coracao">
-            <i class="ri-heart-fill"></i>
-          </div>
-          <img src="./images/remedio.png" class="card-img-top" alt="Foto de remedio">
-          <div class="card-body">
-            <h5 class="card-title">SHAMPOO JOHNSONS BABY CABELOS CLAROS 800ML</h5>
-            <p class="card-text">R&#36 33,89</p>
-            <a href="#" class="btn btn-primary">Adicionar <i class="ri-add-circle-fill"></i></a>
-          </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-          <div class="coracao">
-            <i class="ri-heart-fill"></i>
-          </div>
-          <img src="./images/remedio.png" class="card-img-top" alt="Foto de remedio">
-          <div class="card-body">
-            <h5 class="card-title">SHAMPOO JOHNSONS BABY CABELOS CLAROS 1,02L</h5>
-            <p class="card-text">R&#36 37,89</p>
-            <a href="#" class="btn btn-primary">Adicionar <i class="ri-add-circle-fill"></i></a>
-          </div>
-        </div>
+    <div class="container">
+      <div class="p-4 d-flex justify-content-center">
+        <h2>Todos os remédios</h2>
       </div>
-    </section>
+      <section id="todos-remedios">
+
+        <div class="row align-items-center">
+          <div class="card col m-3">
+            <div class="coracao">
+              <i class="ri-heart-fill"></i>
+            </div>
+            <img src="./images/remedio.png" class="card-img-top" alt="Foto de remedio">
+            <div class="card-body">
+              <h5 class="card-title">SHAMPOO JOHNSONS BABY CABELOS CLAROS 400ML</h5>
+              <p class="card-text">R&#36 27,89</p>
+              <a href="#" class="btn btn-primary">Adicionar <i class="ri-add-circle-fill"></i></a>
+            </div>
+          </div>
+
+          <div class="card col m-3">
+            <div class="coracao">
+              <i class="ri-heart-fill"></i>
+            </div>
+            <img src="./images/remedio.png" class="card-img-top" alt="Foto de remedio">
+            <div class="card-body">
+              <h5 class="card-title">AMOXICILINA TEUTO 500MG COM 21 COMPRIMIDOS</h5>
+              <p class="card-text">R&#36 87,78</p>
+              <a href="#" class="btn btn-primary">Adicionar <i class="ri-add-circle-fill"></i></a>
+            </div>
+          </div>
+
+          <div class="card col m-3">
+            <div class="coracao">
+              <i class="ri-heart-fill"></i>
+            </div>
+            <img src="./images/remedio.png" class="card-img-top" alt="Foto de remedio">
+            <div class="card-body">
+              <h5 class="card-title">LORATADINA CIMED COM 12 COMPRIMIDOS 10MG</h5>
+              <p class="card-text">R&#36 6,21</p>
+              <a href="#" class="btn btn-primary">Adicionar <i class="ri-add-circle-fill"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row align-items-center">
+          <div class="card col m-3">
+            <div class="coracao">
+              <i class="ri-heart-fill"></i>
+            </div>
+            <img src="./images/remedio.png" class="card-img-top" alt="Foto de remedio">
+            <div class="card-body">
+              <h5 class="card-title">SHAMPOO JOHNSONS BABY CABELOS CLAROS 500ML</h5>
+              <p class="card-text">R&#36 29,89</p>
+              <a href="#" class="btn btn-primary">Adicionar <i class="ri-add-circle-fill"></i></a>
+            </div>
+          </div>
+
+          <div class="card col m-3">
+            <div class="coracao">
+              <i class="ri-heart-fill"></i>
+            </div>
+            <img src="./images/remedio.png" class="card-img-top" alt="Foto de remedio">
+            <div class="card-body">
+              <h5 class="card-title">SHAMPOO JOHNSONS BABY CABELOS CLAROS 600ML</h5>
+              <p class="card-text">R&#36 31,89</p>
+              <a href="#" class="btn btn-primary">Adicionar <i class="ri-add-circle-fill"></i></a>
+            </div>
+          </div>
+
+          <div class="card col m-3">
+            <div class="coracao">
+              <i class="ri-heart-fill"></i>
+            </div>
+            <img src="./images/remedio.png" class="card-img-top" alt="Foto de remedio">
+            <div class="card-body">
+              <h5 class="card-title">SHAMPOO JOHNSONS BABY CABELOS CLAROS 800ML</h5>
+              <p class="card-text">R&#36 33,89</p>
+              <a href="#" class="btn btn-primary">Adicionar <i class="ri-add-circle-fill"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <div class="p-4 d-flex justify-content-center">
+        <h2>Localização</h2>
+      </div>
+      <section id="localizacao" class="pb-5">
+        <div class="row align-items-center">
+          <div class="col-md-5 text-center">
+            <h2>Rua Pernambuco, 35 - Centro</h2>
+            <h2>Poços de Caldas - MG</h2>
+            <h2>CEP: 37701-000</h2>
+          </div>
+          <div class="col-md-5" id="localizacao-mapa">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3704.873111688109!2d-46.56412298505438!3d-21.785171385593554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c9dce43318f165%3A0xc32b3d2efee57c14!2sFonte%20das%20Rosas!5e0!3m2!1spt-BR!2sbr!4v1686967290307!5m2!1spt-BR!2sbr"
+              allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </section>
+
+    </div>
   </main>
 
   <footer>
